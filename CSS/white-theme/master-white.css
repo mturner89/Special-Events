@@ -153,13 +153,14 @@ hr {
 .sidebar-wrapper .sidebar-section a:hover {
   text-decoration: none;
   background-color: #ef3e42;
+  color: #fff;
 }
-/* line 77, ../../sass/white-theme/nav.scss */
+/* line 78, ../../sass/white-theme/nav.scss */
 .sidebar-wrapper .sidebar-logo {
   display: block;
   margin-top: 20px;
 }
-/* line 80, ../../sass/white-theme/nav.scss */
+/* line 81, ../../sass/white-theme/nav.scss */
 .sidebar-wrapper .sidebar-logo img {
   margin-left: auto;
   margin-right: auto;
@@ -168,13 +169,13 @@ hr {
   height: auto;
 }
 
-/* line 89, ../../sass/white-theme/nav.scss */
+/* line 90, ../../sass/white-theme/nav.scss */
 .mobile-options {
   border-bottom: 2px solid #fff;
   /*margin-top:-21px;*/
   display: none;
 }
-/* line 93, ../../sass/white-theme/nav.scss */
+/* line 94, ../../sass/white-theme/nav.scss */
 .mobile-options a {
   background-color: #ef3e42;
   color: #fff;
@@ -188,14 +189,14 @@ hr {
   padding-left: 20px;
 }
 
-/* line 106, ../../sass/white-theme/nav.scss */
+/* line 107, ../../sass/white-theme/nav.scss */
 .collapse-nav > p {
   background-color: #000 !important;
 }
 
 /***************** Navigation Media Querries ***************************************/
 @media only screen and (max-width: 950px) {
-  /* line 114, ../../sass/white-theme/nav.scss */
+  /* line 115, ../../sass/white-theme/nav.scss */
   .sidebar-wrapper {
     top: 70px;
     z-index: 9999;
@@ -204,23 +205,23 @@ hr {
   }
 }
 @media only screen and (max-width: 600px) {
-  /* line 124, ../../sass/white-theme/nav.scss */
+  /* line 125, ../../sass/white-theme/nav.scss */
   .btn-nav {
     padding: 2px 10px !important;
   }
 
-  /* line 127, ../../sass/white-theme/nav.scss */
+  /* line 128, ../../sass/white-theme/nav.scss */
   .nav-buttons > a {
     margin-right: 10px;
   }
 }
 @media only screen and (max-width: 550px) {
-  /* line 133, ../../sass/white-theme/nav.scss */
+  /* line 134, ../../sass/white-theme/nav.scss */
   .mobile-options {
     display: block;
   }
 
-  /* line 136, ../../sass/white-theme/nav.scss */
+  /* line 137, ../../sass/white-theme/nav.scss */
   .nav-buttons {
     display: none;
   }
