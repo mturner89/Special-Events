@@ -1,0 +1,39 @@
+/*********************************** Body Styles ***********************************************************/
+/* line 2, ../../sass/red-theme/body.scss */
+#body-container {
+  max-width: 1015px;
+  margin-left: 230px;
+  margin-top: 70px;
+}
+/* line 6, ../../sass/red-theme/body.scss */
+#body-container .leaderboard-img-wrapper {
+  max-width: 1015px;
+}
+/* line 9, ../../sass/red-theme/body.scss */
+#body-container ul {
+  margin-left: 40px;
+}
+/* line 11, ../../sass/red-theme/body.scss */
+#body-container ul li {
+  margin-bottom: 12px;
+}
+
+/* line 16, ../../sass/red-theme/body.scss */
+.inner-pad {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+/* line 19, ../../sass/red-theme/body.scss */
+.inner-pad p {
+  line-height: 1.4;
+}
+
+/* line 23, ../../sass/red-theme/body.scss */
+.spacer {
+  clear: both;
+}
+
+/* line 26, ../../sass/red-theme/body.scss */
+.anchor {
+  padding-top: 70px;
+}

@@ -1,0 +1,261 @@
+/************ Variable Declarations **********/
+/*********************************** Typography Styles ******************************************/
+/**** Variable Declarations ****/
+/* line 7, ../../sass/red-theme/typography.scss */
+p, a, ul, li, button {
+  font-family: 'Roboto',Arial,sans-serif;
+  color: #666;
+  word-wrap: break-word;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* line 14, ../../sass/red-theme/typography.scss */
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat','Roboto',Arial,sans-serif;
+  color: #ef3e42;
+}
+
+/* line 19, ../../sass/red-theme/typography.scss */
+a {
+  color: #ef3e42;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* line 23, ../../sass/red-theme/typography.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 27, ../../sass/red-theme/typography.scss */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* line 32, ../../sass/red-theme/typography.scss */
+hr {
+  height: 3px;
+  width: 100%;
+  color: #ef3e42;
+  background-color: #ef3e42;
+}
+
+/* line 39, ../../sass/red-theme/typography.scss */
+.light-hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 1px;
+  background-color: #f5f5f5;
+}
+
+/* line 45, ../../sass/red-theme/typography.scss */
+.heading {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* line 50, ../../sass/red-theme/typography.scss */
+.cntr {
+  text-align: center;
+}
+
+/* line 53, ../../sass/red-theme/typography.scss */
+.spacer {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  height: 15px;
+  clear: both;
+}
+
+/* line 59, ../../sass/red-theme/typography.scss */
+.schedule-heading {
+  margin-top: 0px;
+  text-align: center;
+}
+
+/******************************** Variable Declarations **********************************************/
+/********************************** Navigation Styles *****************************************/
+/* line 14, ../../sass/red-theme/nav.scss */
+.container {
+  margin-top: -8px;
+}
+
+/* line 17, ../../sass/red-theme/nav.scss */
+.nav-container {
+  background-color: #ef3e42;
+  margin-top: 0px;
+  box-shadow: 0px 2px 4px 0px #525258;
+  z-index: 9999;
+  position: fixed;
+  top: 0px;
+}
+
+/* line 25, ../../sass/red-theme/nav.scss */
+.nav-img-container {
+  width: 161px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* line 31, ../../sass/red-theme/nav.scss */
+.nav-buttons {
+  float: right;
+  display: inline-block;
+  margin-top: -44px;
+  margin-right: 20px;
+}
+/* line 36, ../../sass/red-theme/nav.scss */
+.nav-buttons a {
+  margin-right: 15px;
+}
+
+/************************************** Sidebar Styles *****************************************/
+/* line 43, ../../sass/red-theme/nav.scss */
+.sidebar-wrapper {
+  background-color: #ef3e42;
+  bottom: 0;
+  position: fixed;
+  top: 70px;
+  width: 230px;
+  box-shadow: 0px 2px 4px 0px #525258;
+  display: block;
+  margin-left: -15px;
+  overflow-y: auto;
+}
+/* line 53, ../../sass/red-theme/nav.scss */
+.sidebar-wrapper .sidebar-section {
+  border-bottom: 2px solid #fff;
+  margin-top: -21px;
+}
+/* line 56, ../../sass/red-theme/nav.scss */
+.sidebar-wrapper .sidebar-section h2 {
+  background-color: #252528;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px;
+  font-weight: 400;
+}
+/* line 63, ../../sass/red-theme/nav.scss */
+.sidebar-wrapper .sidebar-section a {
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  display: block;
+  padding-left: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+/* line 71, ../../sass/red-theme/nav.scss */
+.sidebar-wrapper .sidebar-section a:hover {
+  text-decoration: none;
+  background-color: #252528;
+}
+/* line 77, ../../sass/red-theme/nav.scss */
+.sidebar-wrapper .sidebar-logo {
+  display: block;
+  margin-top: 20px;
+}
+/* line 80, ../../sass/red-theme/nav.scss */
+.sidebar-wrapper .sidebar-logo img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 89, ../../sass/red-theme/nav.scss */
+.mobile-options {
+  border-bottom: 2px solid #fff;
+  /*margin-top:-21px;*/
+  display: none;
+}
+/* line 93, ../../sass/red-theme/nav.scss */
+.mobile-options a {
+  background-color: #252528;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px;
+  font-weight: 400;
+  display: block;
+  text-decoration: none;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding-left: 20px;
+}
+
+/***************** Navigation Media Querries ***************************************/
+@media only screen and (max-width: 950px) {
+  /* line 112, ../../sass/red-theme/nav.scss */
+  .sidebar-wrapper {
+    top: 70px;
+    z-index: 9999;
+    margin-left: 0px;
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 122, ../../sass/red-theme/nav.scss */
+  .btn-nav {
+    padding: 2px 10px !important;
+  }
+
+  /* line 125, ../../sass/red-theme/nav.scss */
+  .nav-buttons > a {
+    margin-right: 10px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  /* line 131, ../../sass/red-theme/nav.scss */
+  .mobile-options {
+    display: block;
+  }
+
+  /* line 134, ../../sass/red-theme/nav.scss */
+  .nav-buttons {
+    display: none;
+  }
+}
+/*********************************** Body Styles ***********************************************************/
+/* line 2, ../../sass/red-theme/body.scss */
+#body-container {
+  max-width: 1015px;
+  margin-left: 230px;
+  margin-top: 70px;
+}
+/* line 6, ../../sass/red-theme/body.scss */
+#body-container .leaderboard-img-wrapper {
+  max-width: 1015px;
+}
+/* line 9, ../../sass/red-theme/body.scss */
+#body-container ul {
+  margin-left: 40px;
+}
+/* line 11, ../../sass/red-theme/body.scss */
+#body-container ul li {
+  margin-bottom: 12px;
+}
+
+/* line 16, ../../sass/red-theme/body.scss */
+.inner-pad {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+/* line 19, ../../sass/red-theme/body.scss */
+.inner-pad p {
+  line-height: 1.4;
+}
+
+/* line 23, ../../sass/red-theme/body.scss */
+.spacer {
+  clear: both;
+}
+
+/* line 26, ../../sass/red-theme/body.scss */
+.anchor {
+  padding-top: 70px;
+}
