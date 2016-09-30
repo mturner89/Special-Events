@@ -1,0 +1,62 @@
+/*********************************** Typography Styles ******************************************/
+
+/**** Variable Declarations ****/
+$HSFred:#ef3e42;
+$text-color:#666;
+
+p,a,ul,li,button{
+	font-family:'Roboto',Arial,sans-serif;
+	color:$text-color;
+	word-wrap: break-word;
+	font-size:16px;
+	font-weight:400;	
+}
+h1, h2, h3, h4, h5 {
+	font-family:'Montserrat','Roboto',Arial,sans-serif;
+	color:$HSFred;
+	
+}
+a {
+	color:$HSFred;
+	text-decoration:none;
+	font-weight:bold;
+	&:hover {
+		text-decoration:underline;
+	}
+}
+img {
+	max-width:100%;
+	height:auto;
+	display:block;
+}
+hr {
+	height:3px;
+	width:100%;
+	color:$HSFred;	
+	background-color:$HSFred;
+	
+}
+.light-hr {
+	margin-top:10px;
+	margin-bottom:10px;
+	height:1px;
+	background-color:#f5f5f5;
+}
+.heading {
+	text-align:center;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+.cntr {
+	text-align:center;
+}
+.spacer {
+	margin-top:25px;
+	margin-bottom:25px;
+	height:15px;
+	clear:both;
+}
+.schedule-heading {
+	margin-top:0px;
+	text-align:center;
+}
