@@ -1,0 +1,76 @@
+/*********************************** Typography Styles ******************************************/
+/**** Variable Declarations ****/
+/* line 7, ../../sass/white-theme/typography.scss */
+p, a, ul, li, button {
+  font-family: 'Roboto',Arial,sans-serif;
+  color: #666;
+  word-wrap: break-word;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* line 14, ../../sass/white-theme/typography.scss */
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat','Roboto',Arial,sans-serif;
+  color: #ef3e42;
+}
+
+/* line 19, ../../sass/white-theme/typography.scss */
+a {
+  color: #ef3e42;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* line 23, ../../sass/white-theme/typography.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 27, ../../sass/white-theme/typography.scss */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* line 32, ../../sass/white-theme/typography.scss */
+hr {
+  height: 3px;
+  width: 100%;
+  color: #ef3e42;
+  background-color: #ef3e42;
+}
+
+/* line 39, ../../sass/white-theme/typography.scss */
+.light-hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 1px;
+  background-color: #f5f5f5;
+}
+
+/* line 45, ../../sass/white-theme/typography.scss */
+.heading {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* line 50, ../../sass/white-theme/typography.scss */
+.cntr {
+  text-align: center;
+}
+
+/* line 53, ../../sass/white-theme/typography.scss */
+.spacer {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  height: 15px;
+  clear: both;
+}
+
+/* line 59, ../../sass/white-theme/typography.scss */
+.schedule-heading {
+  margin-top: 0px;
+  text-align: center;
+}
