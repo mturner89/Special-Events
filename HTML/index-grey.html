@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Special Event Template</title>
+	<link href='SASS/stylesheets/grey-theme/master-grey.css' rel='stylesheet' type='text/css'>	
+	<link href='framework/grid-framework.css' rel='stylesheet' type='text/css'>	
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,400italic,500,700,500italic,700italic' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
+	<script>
+		$(document).ready(function() {
+		  $width = $(window).width();
+		  console.log($width);
+		  if ($width >= 934) {
+			$(".collapse-nav").click(function() {
+			$(".sidebar-wrapper").fadeIn(600);
+			$(".sidebar-wrapper").toggleClass('nav-items-toggle');
+				if ($(".sidebar-wrapper").hasClass('nav-items-toggle')) {
+				  $(".sidebar-wrapper").css({display: "none" });
+				  $(".sidebar-wrapper").fadeOut(300);			  
+				  $("#body-container").addClass('col-12');
+				  $("#body-container").css('marginLeft','0px');
+				} 
+				else {
+				  $(".sidebar-wrapper").css({display: "block" });
+				  $("#body-container").removeClass('col-12');
+				  $("#body-container").addClass('col-9');
+				  $("#body-container").css('marginLeft','230px');
+				}
+			});
+		   }
+		   else {
+			$(document).ready(function() {
+				$(".sidebar-wrapper").css({display:"none"});
+				$("#body-container").addClass('col-12');
+				$("#body-container").removeClass('col-9');
+				$("#body-container").css('marginLeft','0px');
+			});
+			$(".collapse-nav").click(function() {			
+			$(".sidebar-wrapper").toggleClass('nav-items-toggle');
+				if ($(".sidebar-wrapper").hasClass('nav-items-toggle')) {
+				  $(".sidebar-wrapper").css({display: "block" });				
+				  $(".sidebar-wrapper").fadeIn(600);				  
+				} 
+				else {
+				  $(".sidebar-wrapper").css({display: "none" });
+				  $(".sidebar-wrapper").fadeOut(300);				  
+				}
+			});
+		   }
+		});		
+		
+	</script>
+</head>
+<body style="overflow-x:hidden;">
+	<div class="container" style="max-width:1015px;"><!-- Site Container -->
+		
+		<div class="row-wrapper"><!-- Row Wrapper -->		
+			<!-- Beginning of Nav Container -->
+			<div class="nav-container" style="max-width:1015px;">
+				<div class="collapse-nav">
+					<p></p>
+					<p></p>
+					<p></p>
+				</div>
+				<div class="nav-img-container">
+					<img src="img/white-logo.png"/>
+				</div>
+				<div class="nav-buttons">
+					<a href=" " class="btn-nav btn-hsf">Donate</a>
+					<a href=" " class="btn-nav btn-hsf">Register</a>
+					<a href=" " class="btn-nav btn-hsf">Login</a>
+				</div>		
+			</div>
+			<!-- End of Nav Container -->			
+		</div><!-- End of Row Wrapper -->
+		
+		<!--Beginning of Sidebar Container -->		
+		<div class="sidebar-wrapper">
+			<div class="mobile-options">
+				<a href=" ">Donate</a>
+				<a href=" ">Regsiter</a>
+				<a href=" ">Login</a>
+			</div>
+			<div class="sidebar-section">
+				<h2>Welcome</h2>
+				<a style="margin-top:-20px;" href=" ">Home</a>
+				<a href="#Event-Info-Anchor">Event Info</a>
+				<a href="#Route-Descriptions">Route Descriptions</a>
+				<a href=" ">Register Now</a>
+				<a href=" ">Sponsor A Rider</a>
+				<a href=" ">Contact Us</a>				
+			</div>
+			<div class="sidebar-section">
+				<h2>Registered Participants</h2>
+				<a style="margin-top:-20px;" href=" ">Login</a>
+				<a href=" ">Print A Pledge Form</a>
+				<a href=" ">Easy Fundraising Tips</a>
+				<a href=" ">Rules & Regulations</a>							
+			</div>
+			<div class="sidebar-logo">
+				<img src="img/white-logo.png"/>
+			</div>
+		</div>				
+		<!--End of Sidebar Container -->
+		
+		
+		
+		<!-- Beginning of Body Contents -->
+		<div class="row-wrapper">
+			<div class="col-9" id="body-container">				
+				<!-- Leaderboard Image -->
+				<div class="leaderboard-img-wrapper">
+					<img src="img/leaderboard-img.jpg"/>
+				</div>				
+				<!-- End of Leaderboard Image -->					
+				
+				<!-- We Create Survivors -->
+				<h1 class="cntr">We Create Survivors</h1>
+				<ul>
+					<li>Close to 70,000 Canadians die each year from heart disease and stroke: that’s one every seven minutes.</li>
+					<li>One out of 10 Canadians have at least one risk factor for heart disease and stroke.</li>
+				</ul>
+				<div class="inner-pad">
+					<p>But we can change that statistic! Be part of the solution. Your fundraising dollars not only support ground-breaking research to help save and extend lives, but also enable programs to help individuals reduce their risk for heart disease and stroke.</p>
+					<p>On PEI, we are contributing to researchers like Dr. Andrew Tasker (Department of Biomedical Sciences, Atlantic Veterinary College, UPEI) and Dr. Catherine Ryan (Department of Psychology, UPEI), who are busy researching the clot-busting drug Xa-K, which has the potential to provide stroke patients with safer, faster and more effective treatment. It could be stroke’s next big breakthrough. Read the article - Chasing the next breakthrough. This research is being done through a UPEI/AVC partnership along with laboratories at Toronto's Hospital for Sick Children, the University of Toronto and UBC.</p>
+					<p class="cntr"><b>HEALTHY LIVES FREE OF HEART DISEASE AND STROKE. TOGETHER WE WILL MAKE IT HAPPEN.</b></p>
+				</div>
+				
+				<!-- Event Info Section -->				
+				<div class="inner-pad cntr">
+					<h1 class="cntr anchor" id="Event-Info-Anchor">Event Information</h1>
+					<p>Join the Heart and Stroke Foundation for the <b>Spokes for Stroke</b> cycling event. This event raises crucial funds for world class research that helps Islanders and all Canadians live longer, more productive lives.</p>
+					<p>The Heart and Stroke Foundation’s <b>Spokes for Stroke</b>, is planned for <b>Sunday, June 12, 2016</b>. Organizers have mapped out routes and distances that will offer something for everyone – from novice level to experienced cyclists, youth to seniors, individuals who prefer a leisurely bike ride and those who are anxious to challenge themselves and clock their best time ever!</p>
+					<p>Trail Route (5km-35km)</p>
+					<p>Kids Loop (around Commons Centre)</p>
+					<p>It's something big that you can do. This year, we want to involve even more cyclists, register now <b>and fundraise a minimum of $50 to participate the day of the event.</b></p>
+					<p>* Youth 12 and under are required to pre-register. They will also need to be accompanied by an adult who is registered for the ride. This adult will be responsible for supervision of the youth at all times during the ride.</p>
+				</div>	
+				<div class="col-6">
+					<div class="inner-pad cntr">
+						<h2>Event Location</h2>
+						<img src="img/brackley.png"/>
+						<p>Brackley Commons Community Centre<br/>
+						14 Union Road, Brackley, PE, C1E 3J6</p>
+					</div>					
+				</div>
+				<div class="col-6">
+					<div class="inner-pad cntr">
+						<h2>Event Schedule</h2>
+						<p><b>Sunday, June 12, 2016</b><br/>
+						Registration:7:30am-8:45am<br/>
+						Riders Meeting: 8:55am<br/>
+						Trail Route Start: 9:05am<br/>
+						Kids Loop Start: 9:30am</p>
+					</div>
+				</div>
+				<div class="spacer"></div>
+				
+				
+				<!-- Route Descriptions Section -->
+				<h1 class="cntr anchor" id="Route-Descriptions">Route Descriptions</h1>
+				<div class="inner-pad">
+					<p class="cntr">To accommodate different levels of cyclists, we have two route choices with variable distances in the trail route.</p>
+					<ul>
+						<li>All routes start at the Brackley Community Centre on Union Road</li>
+						<li>Starting location is shown by the red arrow on the map</li>
+						<li>The routes will be well marked with distance markers at turns and rest stops</li>
+						<li>We encourage cyclists to study the route beforehand, PLEASE DOWNLOAD the PDF attachment here for the full description of the routes.</li>
+					</ul>
+					<p style="margin-top:40px;">If you prefer a shorter route or do not own a road bike, we encourage you to take to the trail. The trail route begins on the Brackley Point Road paved bike path. Cyclists will head north on Brackley Point Road and access the Confederation Trail at the BJ’s Truck Centre entrance. </p>
+					<p>Once on the Confederation Trail, you can turn around at any point but the last monitored turnaround point is in Tracadie. When you turn around, follow the Confederation Trail back to Brackley Point Road and follow the paved bike path to the finish line. Click here to download the Trail Map PDF.</p>
+				</div>
+				<div class="col-6">
+					<div class="inner-pad cntr">
+						<h2>Trail Route - up to 35km</h2>
+						<img style="margin-bottom:15px;margin-left:auto;margin-right:auto;" src="img/trail-map.jpg"/>
+						<a href=" " class="btn btn-hsf">Download</a>
+					</div>					
+				</div>
+				<div class="col-6">
+					<div class="inner-pad cntr">
+						<h2>Road Map - 66.5km</h2>
+						<img style="margin-bottom:15px;margin-left:auto;margin-right:auto;" src="img/road-map.jpg"/>
+						<a href=" " class="btn btn-hsf">Download</a>
+					</div>
+				</div>				
+			</div>
+			<!-- End of Body Container Div -->
+		</div>
+		<!-- End of Body Contents -->
+		
+	</div><!-- End Site Container -->
+</body>
+</html>
+
