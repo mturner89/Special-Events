@@ -81,7 +81,7 @@ html {
 		padding:0px;
 	}
 	.nav-container	{
-		width:98.4%;
+		width:100%;
 		padding:0px;
 	}
 	.row-wrapper {
@@ -104,19 +104,19 @@ html {
 
 @media only screen and (max-width:750px){
 	.nav-container {
-		width:98%;
+		width:100%;
 	}
 }
 
 @media only screen and (max-width:650px){
 	.nav-container {
-		width:97.5%;
+		width:100%;
 	}
 }
 
 @media only screen and (max-width:600px){
 	.nav-container {
-		width:97.5%;
+		width:100%;
 	}
 }
 
