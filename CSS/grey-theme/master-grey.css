@@ -279,6 +279,7 @@ hr {
   text-transform:uppercase;
   font-size:14px;
   color:#fff;
+  text-align:center;
 }
 .footer-items > a > p {
   color:#fff;
@@ -292,6 +293,7 @@ hr {
 .copyright {
   text-align:center;
   clear:both;
+  color:#fff;
 }
 .footer-fine-print {
   text-align:center;
