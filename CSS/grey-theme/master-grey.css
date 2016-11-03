@@ -271,7 +271,9 @@ hr {
   margin-right:auto;
 }
 .footer-items {
-  text-align:center;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
 }
 .footer-items > a {
   float:left;  
