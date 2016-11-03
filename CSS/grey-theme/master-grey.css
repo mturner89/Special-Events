@@ -258,3 +258,30 @@ hr {
 .anchor {
   padding-top: 70px;
 }
+
+
+/********************************* Footer Styles *****************************************/
+#footer {
+  background-color:#5d646c;
+}
+.footer-inner {
+  width:85%;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+}
+.footer-items {
+  text-align:center;
+}
+.footer-items > a {
+  float:left;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:14px;
+  color:#fff;
+}
+.footer-items > a > p {
+  color:#fff;
+  border-right:1px solid #fff;
+  padding-right:10px;
+}
