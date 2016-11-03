@@ -289,3 +289,12 @@ hr {
 .footer-items > a > p:last-child {
    border-right:none;
 }
+.copyright {
+  text-align:center;
+  clear:both;
+}
+.footer-fine-print {
+  text-align:center;
+  color:#fff;
+  font-size:12px;
+}
