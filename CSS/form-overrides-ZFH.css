@@ -1,0 +1,372 @@
+/**********************************************************************************************************************/
+/************************************************ Search For Participant **********************************************/
+.tr-page-title,
+.campaign-banner-container,
+.section-sub-header.empty{
+	display:none;
+}
+
+#search_part_team {
+	width:50% !important;
+}
+
+#search_part_team > ul > li,
+#search_participant {
+	background-color:#fff !important;
+	border:none !important;
+}
+
+#fr_find_search {
+	background:none !important;
+	background-color:#bb2233 !important;
+	color:#fff !important;
+	border-radius:8px !important;
+	width:90px !important;
+}
+
+#participant_find_search_text {
+	display:block !important;
+	color:#fff !important;
+	text-transform:uppercase !important;
+}
+
+#advanced_search_container {
+	color:#bb2233 !important;
+	display:none;
+}
+
+.list-component-paginator-link {
+	color:#bb2233 !important; 
+}
+
+.list-component-cell-data-text > a {
+	font-size:20px;
+	color:#bb2233 !important;
+}
+
+#sidebar_donate_button,
+#sidebar_donate_button:hover,
+#sidebar_donate_button:active,
+#main_donate_button {
+	background-color:#bb2233 !important;
+	color:#fff !important;
+	border:none !important;
+	background-image:none !important;
+}
+
+.tr-personal-page-footer > p > a {
+	color:#bb2233 !important;
+}
+
+.tributes-caption {
+	font-size:20px !important;
+}
+.tributes-caption > span {
+	color:#bb2233 !important;
+	font-weight:bold;
+}
+.search-content > noscript {
+	display:none;
+}
+
+@media only screen and (max-width: 950px) {
+	#search_part_team,
+	.search-content,
+	#find_participant,
+	#search_part_team > ul > li {
+		width:100% !important;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#last_name_search_field {
+		margin-bottom:50px;
+	}	
+}
+
+/**********************************************************************************************************************/
+/************************************************ Donation Form *******************************************************/
+
+/*Aligns the form with the left margin of the site container */
+#ProcessForm {
+	margin-left:-15px;
+}
+
+/*Sets the form contents to fit the design and controls how spaced it looks in the content */
+.donation-form-container,
+.responsive {
+	background:#fff !important;
+	border:none !important;
+	max-width:1015px;
+	margin-left:10px;
+	padding:10px;
+}
+
+.html-caption-container {
+	max-width:1015px;
+}
+
+/*Hides the Norton logo that Convio inserts*/
+.html-caption-container > table > tbody > tr > td:last-child {
+	display:none;	
+}
+
+/*Makes the "Donate" header larger*/
+.html-caption-container > table > tbody > tr > td > h2 {
+	font-size:200%;	
+}
+
+
+/*Sets the size and styling of the question text*/
+.FormLabelText,
+label {
+	font-size:18px;
+}
+.donation-level-container {
+	padding:0px;
+	margin:0px !important;
+}
+.donation-level-input-container {
+	padding:5px !important;	
+}
+
+/*Sets submit button styles*/
+#pstep_finish,
+#pstep_cancel {
+	border:1px solid #BB2233;
+	background-color:#bb2233;
+	background-image:none;
+	color:#fff !important;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+
+/*Styles the CVV help link and the form cancel button*/
+.HelpLink {
+	color:#bb2233 !important;
+}
+
+/* Floats the radio button choices to the left of one another */
+.donation-level-container {
+	float:left;
+}
+.donation-level-user-entered {
+	float:right;
+	margin-top:-5px !important;
+	clear:both;
+}
+
+.radio-button-container {
+	float:left;
+	margin-right:20px;
+}
+
+div.responsive > a:link {
+	color:#bb2233 !important;
+}
+
+.tender-row {
+	float:left;
+}
+
+/****************************************************************************************************************************/
+/*********************************************** Registration Form **********************************************************/
+
+/*Removes borders and background color from the whole form*/
+#part_type_section_container,
+.section-header,
+.section-container  {
+	border:none !important;
+}
+#part_type_section_header,
+.section-header,
+.section-container {
+	background-color:#fff !important;
+}
+
+/*Brands the participant type box on the form*/
+.part-type-container,
+.selected {
+	border-color:#bb2233 !important;
+	background-color:#fff !important;
+}
+
+
+/*Changes the color of the circle containing what step you are at*/
+.progress-bar-step-current > .progress-bar-step-number-container {
+	background:#bb2233 !important;
+}
+
+/*Brands the steps for moving through the steps */
+.progress-bar-step-text-container > a {
+	color:#666 !important;
+}
+#user_type_email_login_info_link_container > a,
+#cancel_button,
+#fuw_cancel,
+.printable-link-text,
+.reg-summary-edit-link > a{
+	color:#BB2233 !important;
+}
+
+/*Brands the next step button to HSF Red colors*/
+#next_step,
+#user_type_login_login_button,
+#next_button,
+#part_ctr_container,
+#part_ctr_container_step,
+#friend_potion_next,
+#join_team_button,
+.list-component-cell-column-join-link > .list-component-cell-data-text > a,
+#personal_page_join_team_button  {
+	background-image:none !important;
+	background-color:#bb2233 !important;
+	border:1px solid #BB2233 !important; 
+	color:#fff !important;
+}
+
+
+#fuw_next {
+	background-image:none !important;
+	background-color:#bb2233;
+	border:1px solid #bb2233; 
+	color:#fff !important;	
+}
+#fuw_next[disabled="disabled"] {
+	background-image:none !important;
+	background-color:#e2e2e2;
+	border:1px solid #e2e2e2; 
+	color:#fff !important;
+	cursor:not-allowed;
+} 
+
+
+#previous_step,
+#team_find_registration_type_container {
+	display:none;
+}
+
+/* Hides the attending guest questions - JS will show them if the dropdown choice is yes */
+/*
+#additional_questions_container > .survey-question-container:nth-child(2),
+#additional_questions_container > .survey-question-container:nth-child(3),
+#additional_questions_container > .survey-question-container:nth-child(4),
+#additional_questions_container > .survey-question-container:nth-child(5),
+#additional_questions_container > .survey-question-container:nth-child(6),
+#additional_questions_container > .survey-question-container:nth-child(7),
+#additional_questions_container > .survey-question-container:nth-child(8), 
+#additional_questions_container > .survey-question-container:nth-child(9) {
+	display:none;
+}
+*/
+
+/****************************************************************************************************************************/
+/*********************************************** Login Page Form ************************************************************/
+
+#LogonForm > .form_element,
+#UsercheckForm > .form_element {
+	margin-bottom:10px;
+}
+#LogonForm > .form_element > input,
+#UsercheckForm > .form_element > input {
+	border-radius:4px;
+	border:1px solid #e2e2e2;
+	padding:8px;
+}
+.logremb > label {
+	font-size:12px;
+}
+.subbtn > #login,
+#SendPassword {
+	background-image:none !important;
+	background-color:#bb2233 !important;
+	border:1px solid #BB2233 !important; 
+	color:#fff !important;
+}
+.janrain-provider-icon-16 {
+	margin-right:10px;
+}
+.janrainEngage,
+#personal_page_team_page_link {
+	color:#bb2233 !important;
+}
+#janrainView > div:nth-child(3) > div > a {
+	color:#bb2233 !important;
+}
+.anchor{
+	color:#bb2233 !important;
+}
+#getpassword {
+	margin-top:40px !important;
+}
+#getpassword > h2 {
+	cursor:pointer;
+}
+#UsercheckForm,
+#getpassword > p {
+	display:none;
+}
+#pcList {
+	margin-top:-50px;
+}
+.lc_Cell > p > img,
+.lc_Cell:last-child {
+	display:none;
+}
+.lc_Cell {
+	border-radius:4px;
+	border:1px solid #e2e2e2;
+	
+}
+.lc_Table {
+	border-right:none !important;
+	border-bottom:none !important;
+	border-top:none !important;
+}
+
+
+/****************************************************************************************************************************/
+/*************************************************** Search Form ************************************************************/
+
+#search_team {
+	border:none !important;
+	background-color:#fff !important;
+}
+
+#advanced_team_search_container,
+#basic_team_search_container,
+#basic_search_container {
+	color:#bb2233 !important;
+}
+
+#fr_find_search_team {
+	background:none !important;
+	background-image:none !important;
+	background-color:#bb2233 !important;
+	border:1px solid #BB2233 !important; 
+	color:#fff !important;
+	border-radius:8px;
+	padding:10px 10px;	
+	width:auto !important;
+	height:auto !important;
+}
+#team_find_search_text {
+	display:block !important;
+	text-transform:uppercase;
+}
+
+#team_search_field_team {
+	margin-bottom:25px;
+}
+.ui-state-default > .manageable-content > a {
+	color:#bb2233 !important;
+}
+.ui-state-active > .manageable-content > a{
+	border-top: 1px solid !important;
+    border-left: 1px solid !important;
+    border-right: 1px solid !important;
+    border-radius: 4px 4px 0px 0px !important; 
+    border-bottom: none !important;
+    padding: 10px !important;
+    color:#555 !important;	
+}
