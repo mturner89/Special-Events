@@ -22,12 +22,14 @@ h3 {
  float:none !important;
  height:auto !important;
  color:#666;
+ font-size:16px;
 }
 #lo-CalendarStartDateValue,
 #lo-start_time,
 #lo-CalendarAddressValue {
   margin-bottom:10px;
   color:#666;
+  font-size:16px;
 }
 
 #lo-UserDetailInfoOtherInfo {
