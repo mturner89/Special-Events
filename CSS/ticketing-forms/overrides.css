@@ -3,10 +3,12 @@
 p {
  text-align:center;
 }
+
 #lo-CalendarDateInfoContainer {
  width:100% !important;
  text-align:center; 
 } 
+
 #lo-CalendarStartDateLabel,
 #lo-time_field,
 #lo-location_label {
@@ -14,10 +16,10 @@ p {
  float:none !important;
 }
 
-
 #lo-UserDetailInfoOtherInfo {
   display:none;
 }
+
 #buytickets {
   background-color: rgb(221,34,17);
   color: #fff;
@@ -32,11 +34,15 @@ p {
   padding: 10px 15px;
   text-decoration: none
 }
+
 #buytickets:hover,
 #buytickets:active,
 #buytickets:visited {
   border: 1px solid transparent;
 }
 
+#lo-UserDetail {
+ text-align:center;
+}
 
 
