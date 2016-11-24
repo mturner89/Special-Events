@@ -50,7 +50,8 @@ h3 {
   font-weight: 400;
   cursor: pointer;
   padding: 10px 15px;
-  text-decoration: none
+  text-decoration: none;
+  text-transform:uppercase;
 }
 
 #buytickets:hover,
