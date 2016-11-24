@@ -24,6 +24,7 @@ h3 {
  color:#666;
  font-size:16px;
 }
+
 #lo-CalendarStartDateValue,
 #lo-start_time,
 #lo-CalendarAddressValue {
@@ -70,7 +71,8 @@ h3 {
 /****************************************************** Ticketing Form Overrides ************************************/
 /*******************************************************************************************************************/
 
-#lo-attendeeContainer {
+#lo-attendeeContainer,
+#lo-EventBorderContainer {
  border:none;
  padding:0px;
  color:#666;
