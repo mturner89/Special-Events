@@ -93,8 +93,7 @@ h3 {
   margin-bottom:20px;
 }
 
-.value > input {
-  padding-right:90%;
+.value > input { 
   padding-top:15px;
   width:90%;
 }
