@@ -3,6 +3,9 @@
 p, h3 {
  text-align:center;
 }
+h3 {
+ margin-bottom:-10px;
+}
 #lo-EventTitle {
  text-align:center;
 }
