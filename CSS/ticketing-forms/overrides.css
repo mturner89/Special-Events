@@ -3,6 +3,16 @@
 p {
  text-align:center;
 }
+#lo-CalendarDateInfoContainer {
+ width:100% !important;
+ text-align:center; 
+} 
+#lo-CalendarStartDateLabel {
+ width:100% !important;
+ float:none !important;
+}
+
+
 #lo-UserDetailInfoOtherInfo {
   display:none;
 }
