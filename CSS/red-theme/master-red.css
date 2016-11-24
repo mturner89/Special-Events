@@ -13,12 +13,12 @@ p, a, ul, li, button {
 /* line 14, ../../sass/red-theme/typography.scss */
 h1, h2, h3, h4, h5 {
   font-family: 'Montserrat','Roboto',Arial,sans-serif;
-  color: #ef3e42;
+  color: rgb(221,34,17);
 }
 
 /* line 19, ../../sass/red-theme/typography.scss */
 a {
-  color: #ef3e42;
+  color: rgb(221,34,17);
   text-decoration: none;
   font-weight: bold;
 }
@@ -38,8 +38,8 @@ img {
 hr {
   height: 3px;
   width: 100%;
-  color: #ef3e42;
-  background-color: #ef3e42;
+  color: rgb(221,34,17);
+  background-color: rgb(221,34,17);
 }
 
 /* line 39, ../../sass/red-theme/typography.scss */
@@ -85,7 +85,7 @@ hr {
 
 /* line 17, ../../sass/red-theme/nav.scss */
 .nav-container {
-  background-color: #ef3e42;
+  background-color: rgb(221,34,17);
   margin-top: 0px;
   box-shadow: 0px 2px 4px 0px #525258;
   z-index: 9999;
@@ -116,7 +116,7 @@ hr {
 /************************************** Sidebar Styles *****************************************/
 /* line 43, ../../sass/red-theme/nav.scss */
 .sidebar-wrapper {
-  background-color: #ef3e42;
+  background-color: rgb(221,34,17);
   bottom: 0;
   position: fixed;
   top: 70px;
