@@ -3,6 +3,9 @@
 p {
  text-align:center;
 }
+#lo-EventTitle {
+ text-align:center;
+}
 
 #lo-CalendarDateInfoContainer {
  width:100% !important;
@@ -15,7 +18,11 @@ p {
  width:100% !important;
  float:none !important;
  height:auto !important;
- margin-bottom:10px;
+}
+#lo-CalendarStartDateValue,
+#lo-start_time,
+#lo-CalendarAddressValue {
+  margin-bottom:10px;
 }
 
 #lo-UserDetailInfoOtherInfo {
