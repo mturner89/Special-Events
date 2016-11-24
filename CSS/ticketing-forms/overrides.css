@@ -7,7 +7,9 @@ p {
  width:100% !important;
  text-align:center; 
 } 
-#lo-CalendarStartDateLabel {
+#lo-CalendarStartDateLabel,
+#lo-time_field,
+#lo-location_label {
  width:100% !important;
  float:none !important;
 }
