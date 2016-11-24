@@ -58,6 +58,10 @@ h3 {
   border: 1px solid transparent;
 }
 
+#lo-UserDetailContainer {
+ margin-bottom:20px;
+}
+
 #lo-UserDetail {
  text-align:center;
 }
