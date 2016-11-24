@@ -83,13 +83,26 @@ h3 {
   float:left;
 }
 
+.value {
+ width:100%;
+}
+
 .field-row {
   width:46%;
   float:left;
+  margin-bottom:20px;
 }
 
 .value > input {
   padding-right:90%;
-  padding-top:5px;
+  padding-top:15px;
+  width:90%;
 }
 
+#home_stateprov {
+ padding-top:15px;
+}
+
+.hidden-field-label {
+ margin-bottom:20px;
+}
