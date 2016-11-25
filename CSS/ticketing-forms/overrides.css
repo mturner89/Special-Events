@@ -240,6 +240,7 @@ span, table, div {
 #billing-info-table > tbody > tr > td:first-child > table > tbody > tr  {
  float:left;
  width:46%;
+ margin-bottom:15px;
 }
 
 #billing-info-table > tbody > tr > td:first-child > table > tbody > tr >td { 
