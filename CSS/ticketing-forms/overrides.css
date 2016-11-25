@@ -144,5 +144,30 @@ h3 {
    display:none;
 }
 
+#lo-EventBorderContainer {
+ border:none;
+}
+
+.responsive {
+  width:100% !important;
+}
+
+.input-label {
+ word-wrap:break-word;
+}
+
+.ungrouped > select {
+  padding-top:5px;
+  padding-bottom:5px;
+  border-radius:6px;
+}
+
+.lo-EventSubHeaderBar {
+  margin-bottom:20px;
+}
+
+.lc_Heading {
+  border-top:none !important;
+}
 
 
