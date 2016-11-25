@@ -198,6 +198,7 @@ span, table, div {
   cursor: pointer;
   padding: 10px 15px;
   text-decoration: none;
+  margin-right:10px;
 }
 
 #lo-EventButtonContainer > .Button:first-child {
