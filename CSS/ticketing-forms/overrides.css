@@ -121,6 +121,7 @@ span, table, div {
   padding-bottom:8px;
   width:90%;
   border-radius:6px;
+  border:1px solid #666;
 }
 
 #home_stateprov,
@@ -128,6 +129,7 @@ span, table, div {
  padding-top:8px;
  padding-bottom:8px;
  border-radius:6px;
+ border:1px solid #666;
 }
 
 .hidden-field-label {
@@ -174,6 +176,7 @@ span, table, div {
   padding-top:5px;
   padding-bottom:5px;
   border-radius:6px;
+  border:1px solid #666;
 }
 
 .lo-EventSubHeaderBar {
