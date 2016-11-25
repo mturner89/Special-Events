@@ -226,8 +226,8 @@ h3 {
  width:46%;
 }
 
-#billing-info-table > tbody > tr > td:first-child > table > tbody > tr >td:nth-child(2),
-#billing-info-table > tbody > tr > td:first-child > table > tbody > tr >td:last-child {
+#billing-info-table > tbody > tr > td:first-child > table > tbody > tr >td,
+#billing-info-table > tbody > tr > td:first-child > table > tbody > tr >td:nth-child(2) {
  float:left;
 }
 
@@ -237,6 +237,7 @@ h3 {
  padding-bottom:8px; 
  width:100%;
  border-radius:6px;
+ border:1px solid #666;
 }
 
 .unfloated {
