@@ -229,13 +229,14 @@ h3 {
 #billing-info-table > tbody > tr > td:first-child > table > tbody > tr >td:nth-child(2),
 #billing-info-table > tbody > tr > td:first-child > table > tbody > tr >td:last-child {
  float:left;
- width:100%;
 }
 
 #billing-info-table > tbody > tr > td:first-child > table > tbody > tr > td > select,
 #billing-info-table > tbody > tr > td:first-child > table > tbody > tr > td > input {
  padding-top:8px;
  padding-bottom:8px; 
+ width:100%;
+ border-radius:6px;
 }
 
 
