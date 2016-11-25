@@ -254,8 +254,11 @@ span, table, div {
 }
 
 .unfloated {
- clear:both;
- padding-top:10px;
+ clear:both; 
+}
+
+#billing-info-table >tbody > tr > td > table > tbody > tr > .unfloated {
+ padding-top:30px;
 }
 
 
