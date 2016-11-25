@@ -110,11 +110,14 @@ h3 {
   padding-top:8px;
   padding-bottom:8px;
   width:90%;
+  border-radius:6px;
 }
 
 #home_stateprov,
 #home_country {
- padding-top:15px;
+ padding-top:8px;
+ padding-bottom:8px;
+ border-radius:6px;
 }
 
 .hidden-field-label {
@@ -235,7 +238,7 @@ h3 {
 #billing-info-table > tbody > tr > td:first-child > table > tbody > tr > td > input {
  padding-top:8px;
  padding-bottom:8px; 
- width:100%;
+ width:90%;
  border-radius:6px;
  border:1px solid #666;
 }
