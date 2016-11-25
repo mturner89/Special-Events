@@ -243,7 +243,7 @@ span, table, div {
 }
 
 #billing-info-table > tbody > tr > td:first-child > table > tbody > tr >td { 
- width:100%;
+ width:auto;
 }
 
 #billing-info-table > tbody > tr > td:first-child > table > tbody > tr >td:first-child,
@@ -253,6 +253,7 @@ span, table, div {
 
 #billing-info-table > tbody > tr > td:first-child > table > tbody > tr >td:last-child {
  clear:both;
+ width:100%;
 }
 
 #billing-info-table > tbody > tr > td:first-child > table > tbody > tr > td > select,
