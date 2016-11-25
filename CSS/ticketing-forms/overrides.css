@@ -144,7 +144,7 @@ h3 {
    display:none;
 }
 
-#lo-EventBorderContainer {
+.lo-EventBorderContainer {
  border:none;
 }
 
@@ -170,4 +170,26 @@ h3 {
   border-top:none !important;
 }
 
+#lo-EventButtonContainer > .Button {
+  background-image: none;
+  border: 1px solid transparent;
+  display: inline-block;
+  border-radius: 8px;
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 10px 15px;
+  text-decoration: none;
+}
 
+#lo-EventButtonContainer > .Button:first-child {
+  background-color:#5d646c;
+  color:#fff;
+}
+
+#lo-EventButtonContainer > .Button:nth-child(2),
+#lo-EventButtonContainer > .Button:last-child {
+  background-color:rgb(221,34,17);
+  color:#fff;
+}
