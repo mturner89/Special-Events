@@ -145,7 +145,7 @@ h3 {
 }
 
 .lo-EventBorderContainer {
- border:none;
+ border:none !important;
 }
 
 .responsive {
