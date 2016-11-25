@@ -243,7 +243,7 @@ span, table, div {
  width:100%;
 }
 
-#billing-info-table > tbody > tr > td:first-child > table > tbody > tr >td,
+#billing-info-table > tbody > tr > td:first-child > table > tbody > tr >td:first-child,
 #billing-info-table > tbody > tr > td:first-child > table > tbody > tr >td:nth-child(2) {
  float:left;
 }
