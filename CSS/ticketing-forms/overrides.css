@@ -288,3 +288,17 @@ span, table, div {
   display:initial !important;
 }
 
+.FormInput > table > tbody > tr > td > input {
+ width:100%;
+ border-radius:6px;
+ border:1px solid #666;
+ padding-top:8px;
+ padding-bottom:8px;
+}
+
+#ccExp_MONTH {
+ border-radius:6px;
+ border:1px solid #666;
+ padding-top:8px;
+ padding-bottom:8px;
+}
