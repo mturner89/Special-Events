@@ -400,5 +400,10 @@ span, table, div {
 #lo-additional-label-container {
  width:100%;
  }
+
+div, table, span {
+ overflow-x:hidden;
+ }
+ 
  
 }
