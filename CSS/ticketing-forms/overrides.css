@@ -399,8 +399,8 @@ span, table, div {
  
 #lo-additional-label-container,
 .lo-EventAdditionalLabel {
- width:100%;
- }
+ width:100% !important;
+}
 
 div, table, span, form, label, input {
  overflow-x:hidden;
