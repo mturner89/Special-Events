@@ -400,6 +400,7 @@ span, table, div {
 #lo-additional-label-container,
 .lo-EventAdditionalLabel {
  width:100% !important;
+ float:left !important;
 }
 
 div, table, span, form, label, input {
@@ -410,8 +411,7 @@ div, table, span, form, label, input {
   width:100%;
  }
  
-.lo-float-right {
- float:none !important;
+.lo-float-right { 
  clear:both;
 }
  
