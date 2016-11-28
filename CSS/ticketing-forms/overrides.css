@@ -367,3 +367,8 @@ span, table, div {
 .ButtonContainer {
  margin-bottom:20px;
 }
+
+.ErrorMessage {
+ color: rgb(221,34,17);
+ font-weight:bold;
+}
