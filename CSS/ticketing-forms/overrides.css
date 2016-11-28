@@ -397,13 +397,17 @@ span, table, div {
   clear:both;
 }
  
-#lo-additional-label-container {
+#lo-additional-label-container,
+.lo-EventAdditionalLabel {
  width:100%;
  }
 
 div, table, span, form, label, input {
  overflow-x:hidden;
  }
- 
+
+ #gift-value {
+  width:100%;
+ }
  
 }
