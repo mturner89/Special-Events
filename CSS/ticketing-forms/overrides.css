@@ -339,12 +339,14 @@ span, table, div {
   margin-right:10px;
 }
 
+/*
 .ButtonContainer > .Button:first-child {
   background-color:#5d646c;
   color:#fff;
 }
+*/
 
-.ButtonContainer > .Button:nth-child(2),
+.ButtonContainer > .Button:firs-child,
 .ButtonContainer > .Button:last-child,
 #lo-EventLinkContainer > #lo-eventLink1 {
   background-color:rgb(221,34,17);
@@ -355,6 +357,7 @@ span, table, div {
  display:none;
 }
 
-#lo-EventLinkContainer > #lo-eventLink2 {
+#lo-EventLinkContainer > #lo-eventLink2,
+.ButtonContainer > #home {
  display:none;
 }
