@@ -417,6 +417,7 @@ div, table, span, form, label, input {
  
 .lo-float-right { 
  clear:both;
+ float:none;
 }
  
 .lc_Row_no_border {
