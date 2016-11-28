@@ -388,7 +388,13 @@ span, table, div {
 #lo-additional-label-container > #lo-additional-label {
  float:left;
 }
- 
+
+ #billing-info-table > tbody > tr > td:first-child > table > tbody > tr  {
+  float:none;
+  width:100%;
+  margin-bottom:15px;
+  clear:both;
+}
  
  
 }
