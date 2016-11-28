@@ -302,7 +302,8 @@ span, table, div {
 }
 
 #ccExp_MONTH,
-#ccExp_YEAR {
+#ccExp_YEAR,
+#CVV_NUM_SELECTED {
  border-radius:6px;
  border:1px solid #666;
  padding-top:8px;
