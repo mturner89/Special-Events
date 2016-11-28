@@ -346,11 +346,11 @@ span, table, div {
 }
 */
 
-.ButtonContainer > .Button:firs-child,
+.ButtonContainer > .Button:first-child,
 .ButtonContainer > .Button:last-child,
 #lo-EventLinkContainer > #lo-eventLink1 {
   background-color:rgb(221,34,17);
-  color:#fff !important;
+  color:#fff;
 }
 
 #a30 > img {
