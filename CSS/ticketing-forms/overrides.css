@@ -362,6 +362,7 @@ span, table, div {
  display:none;
 }
 
-#lo-EventLinkContainer {
+#lo-EventLinkContainer,
+.ButtonContainer {
  margin-bottom:20px;
 }
