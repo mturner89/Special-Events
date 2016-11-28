@@ -410,4 +410,14 @@ div, table, span, form, label, input {
   width:100%;
  }
  
+.lo-float-right {
+ float:none;
+ clear:both;
+}
+ 
+.lc_Row_no_border {
+ float:left;
+ padding-top:30px;
+}
+ 
 }
