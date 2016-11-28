@@ -421,7 +421,7 @@ div, table, span, form, label, input {
 }
 
 .lo-EventAdditionalGiftValueContainer {
- height:auto;
+ height:auto !important;
  }
  
  
