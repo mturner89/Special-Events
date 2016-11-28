@@ -319,3 +319,29 @@ span, table, div {
  border-top:1px solid #666;
  padding-top:20px;
 }
+
+.ButtonContainer > .Button {
+  background-image: none;
+  border: 1px solid transparent;
+  display: inline-block;
+  border-radius: 8px;
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 10px 15px;
+  text-decoration: none;
+  margin-right:10px;
+}
+
+.ButtonContainer > .Button:first-child {
+  background-color:#5d646c;
+  color:#fff;
+}
+
+.ButtonContainer > .Button:nth-child(2),
+.ButtonContainer > .Button:last-child {
+  background-color:rgb(221,34,17);
+  color:#fff;
+}
+
