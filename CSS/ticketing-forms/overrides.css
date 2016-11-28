@@ -301,7 +301,8 @@ span, table, div {
  padding-bottom:8px;
 }
 
-#ccExp_MONTH {
+#ccExp_MONTH,
+#ccExp_YEAR {
  border-radius:6px;
  border:1px solid #666;
  padding-top:8px;
