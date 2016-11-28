@@ -361,3 +361,7 @@ span, table, div {
 .ButtonContainer > #home {
  display:none;
 }
+
+#lo-EventLinkContainer {
+ margin-bottom:20px;
+}
