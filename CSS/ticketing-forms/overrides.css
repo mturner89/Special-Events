@@ -397,7 +397,11 @@ span, table, div {
   clear:both;
 }
  
-#lo-additional-label-container,
+#lo-additional-label-container {
+ width:100% !important;
+ float:left !important;
+}
+ 
 .lo-EventAdditionalLabel {
  width:100% !important;
  float:left !important;
