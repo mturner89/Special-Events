@@ -345,3 +345,8 @@ span, table, div {
   color:#fff;
 }
 
+#a30 > img {
+ display:none;
+}
+
+
