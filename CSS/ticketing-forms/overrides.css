@@ -349,7 +349,7 @@ span, table, div {
 
 .ButtonContainer > .Button:first-child,
 .ButtonContainer > .Button:last-child,
-#lo-EventLinkContainer > #lo-eventLink1 {
+#lo-EventLinkContainer > #lo-eventLink1 > a {
   background-color:rgb(221,34,17);
   color:#fff;
 }
