@@ -411,7 +411,7 @@ div, table, span, form, label, input {
  }
  
 .lo-float-right {
- float:none;
+ float:none !important;
  clear:both;
 }
  
