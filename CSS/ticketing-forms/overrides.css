@@ -401,7 +401,7 @@ span, table, div {
  width:100%;
  }
 
-div, table, span {
+div, table, span, form, label, input {
  overflow-x:hidden;
  }
  
