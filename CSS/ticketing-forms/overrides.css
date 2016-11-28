@@ -320,7 +320,8 @@ span, table, div {
  padding-top:20px;
 }
 
-.ButtonContainer > .Button {
+.ButtonContainer > .Button,
+#lo-EventLinkContainer > #lo-eventLink1 {
   background-image: none;
   border: 1px solid transparent;
   display: inline-block;
@@ -340,7 +341,8 @@ span, table, div {
 }
 
 .ButtonContainer > .Button:nth-child(2),
-.ButtonContainer > .Button:last-child {
+.ButtonContainer > .Button:last-child,
+#lo-EventLinkContainer > #lo-eventLink1 {
   background-color:rgb(221,34,17);
   color:#fff;
 }
@@ -349,4 +351,6 @@ span, table, div {
  display:none;
 }
 
-
+#lo-EventLinkContainer > #lo-eventLink2 {
+ display:none;
+}
