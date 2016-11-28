@@ -350,7 +350,7 @@ span, table, div {
 .ButtonContainer > .Button:last-child,
 #lo-EventLinkContainer > #lo-eventLink1 {
   background-color:rgb(221,34,17);
-  color:#fff;
+  color:#fff !important;
 }
 
 #a30 > img {
