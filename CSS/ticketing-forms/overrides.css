@@ -419,5 +419,11 @@ div, table, span, form, label, input {
  float:left;
  padding-top:30px;
 }
+
+.lo-EventAdditionalGiftValueContainer {
+ height:auto;
+ }
+ 
+ 
  
 }
