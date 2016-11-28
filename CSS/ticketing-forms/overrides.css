@@ -326,7 +326,7 @@ span, table, div {
 }
 
 .ButtonContainer > .Button,
-#lo-EventLinkContainer > #lo-eventLink1 {
+#lo-EventLinkContainer > #lo-eventLink1 > a {
   background-image: none;
   border: 1px solid transparent;
   display: inline-block;
