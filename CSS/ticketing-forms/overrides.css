@@ -116,7 +116,7 @@ span, table, div {
   margin-bottom:20px;
 }
 
-.fieldContainer > .field-row:nth-child(9) {
+.field-row-home_phone-required {
  clear:both;
 }
 
