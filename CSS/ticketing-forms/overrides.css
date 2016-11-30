@@ -224,6 +224,10 @@ span, table, div {
 
 /********************************************* Ticketing Billing Table Overrides *************************************/
 /*********************************************************************************************************************/
+#EventHistory > tbody > tr > th:last-child,
+#EventHistory > tbody > tr > td:last-child {
+ display:none;
+}
 
 #billing-info-container {
  border:none !important;
