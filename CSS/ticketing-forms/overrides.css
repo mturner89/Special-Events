@@ -116,6 +116,10 @@ span, table, div {
   margin-bottom:20px;
 }
 
+.fieldContainer > .field-row:last-child {
+ clear:both;
+}
+
 .value > input { 
   padding-top:8px;
   padding-bottom:8px;
