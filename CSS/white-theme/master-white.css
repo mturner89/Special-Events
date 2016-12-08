@@ -60,6 +60,8 @@ hr {
 /* line 50, ../../sass/white-theme/typography.scss */
 .cntr {
   text-align: center;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 /* line 53, ../../sass/white-theme/typography.scss */
